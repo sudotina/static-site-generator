@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> An h1 header </title>
+    <link href="/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <div><h1>An h1 header</h1><p><a href="/thai">first post here</a></p><p>Paragraphs are separated by a blank line.</p><p>2nd paragraph. <i>Italic</i>, <b>bold</b>, and <code>monospace</code>. Itemized lists look like:</p><ul><li>this one</li><li>that one</li><li>the other one</li></ul><p>Note that --- not considering the asterisk --- the actual text content starts at 4-columns in.</p><blockquote>Block quotes are written like so.  They can span multiple paragraphs, if you like.</blockquote><p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all in chapters 12--14"). Three dots ... will be converted to an ellipsis. Unicode is supported. ☺</p><h2>An h2 header</h2><p>Here's a numbered list:</p><ol><li>first item</li><li>second item</li><li>third item</li></ol><p>Note again how the actual text starts at 4 columns in (4 characters from the left side). Here's a code sample:</p><pre><code>    # Let me re-iterate ...
+    for i in 1 .. 10 { do-something(i) }
+</code></pre><p>As you probably guessed, indented 4 spaces. By the way, instead of indenting the block, you can use delimited blocks, if you like:</p><pre><code>define foobar() {
+    print "Welcome to flavor country!";
+}
+</code></pre><p>(which makes copying & pasting easier). You can optionally mark the delimited block for Pandoc to syntax highlight it:</p><pre><code>import time
+# Quick, count to ten!
+for i in range(10):
+    # (but not <i>too</i> quick)
+    time.sleep(0.5)
+    print i
+</code></pre><h3>An h3 header</h3><p>Now a nested list:</p><ol><li>First, get these ingredients:</li></ol><ul><li>carrots</li><li>celery</li><li>lentils</li></ul><p>2. Boil some water.</p><p>3. Dump everything in the pot and follow     this algorithm:</p><p>find wooden spoon         uncover pot         stir         cover pot         balance wooden spoon precariously on pot handle         wait 10 minutes         goto first step (or shut off burner when done)</p><p>Do not bump wooden spoon or it will fall.</p><p>Notice again how text always lines up on 4-space indents (including that last line which continues item 3 above).</p><p>Here's a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local doc</a>, and to a <a href="#an-h2-header">section heading in the current doc</a>.</p><p>Here's a definition list:</p><ul><li>Line one</li><li>Line too</li><li>Line tree</li></ul></div>
+    </article>
+</body>
+
+</html>
